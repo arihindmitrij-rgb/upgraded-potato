@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+output/
+out/
+secrets/
+*.pem
+creds.json
+.DS_Store
+*.xlsx
