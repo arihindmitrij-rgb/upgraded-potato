@@ -1,0 +1,10 @@
+{
+  "_comment": "Оверрайды автораспределения без правки кода. Пустые/отсутствующие ключи берутся из .env / дефолтов. После правки — снова «считай распред» (или CLI dry-run).",
+  "AUTODIST_HISTORY_DAYS": 35,
+  "AUTODIST_COVER_CEILING_DAYS": 42,
+  "AUTODIST_OZON_MIN_COVER_DAYS": 14,
+  "AUTODIST_OZON_MIN_NEED": 1,
+  "AUTODIST_SEASON_MIN": 0.7,
+  "AUTODIST_SEASON_MAX": 1.3,
+  "AUTODIST_WB_WAREHOUSE": "СЦ Домодедово 2"
+}

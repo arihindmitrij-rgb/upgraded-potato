@@ -1,0 +1,67 @@
+# Python envs / bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets & auth (never commit)
+.env
+.env.*
+!.env.example
+secrets/
+**/secrets/
+credentials.json
+**/credentials.json
+client_secret*.json
+google_token.json
+**/google_token.json
+*token*.json
+api-credentials.md
+**/api-credentials.md
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime cache / logs / generated supplies
+.cache/
+logs/
+output/*.xlsx
+output/*.json
+output/*.csv
+output/*.tmp
+!output/.gitkeep
+
+# Temp Excel / Office lockfiles
+~$*
+*.tmp.xlsx
+*_temp.xlsx
+*_tmp.xlsx
+*.xlsx.tmp
+*.xlsm.tmp
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Optional hub-mirror: keep definitions only
+hub-mirror/**/state.json
+hub-mirror/**/events.jsonl
+hub-mirror/**/last_run.json
+hub-mirror/**/heartbeat.json
+hub-mirror/**/artifacts/
