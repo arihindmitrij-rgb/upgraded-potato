@@ -1,0 +1,19 @@
+{
+  "id": "wb-logist",
+  "name": "WB Логист",
+  "role": "Автораспред + черновики WB/Ozon, ТЗ для ФФ",
+  "emoji": "📦",
+  "accent": "#f1c40f",
+  "schedule": "по команде в Telegram (@fbsxoradobot)",
+  "owner": "Арихин Дмитрий",
+  "projectPath": "C:\\Users\\User\\.cline\\data\\workspaces\\chat\\wb-logist",
+  "pythonExe": ".venv\\Scripts\\python.exe",
+  "script": "wb_logist.py",
+  "defaultArgs": ["--verbose"],
+  "dryRunDefault": true,
+  "supportsLive": true,
+  "monitorWorker": true,
+  "reportDir": "C:\\Users\\User\\Desktop\\ТЗ WB",
+  "keepRuns": 40,
+  "createdAt": "2026-11-19"
+}
